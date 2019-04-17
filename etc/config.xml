@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <storepickup>
+                <active>1</active>
+                <model>Bajaj\StorePickup\Model\Carrier\StorePickup</model>
+                <name>Store Pickup</name>
+                <price>0.00</price>
+                <title>Free Shipping</title>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>500</sort_order>
+            </storepickup>
+        </carriers>
+    </default>
+</config>
