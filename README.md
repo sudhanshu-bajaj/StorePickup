@@ -5,6 +5,12 @@ This module for Magento 2 ‘Store Pickup’ shipping method that is used to pro
 
 Download the source code and extract to app/code/Bajaj folder.
 
+OR
+
+Run the composer require command.
+
+`composer require bajaj/store-pickup`
+
 `php bin/magento module:enable Bajaj_StorePickup`
 
 `php bin/magento setup:upgrade`
